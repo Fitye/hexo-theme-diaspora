@@ -22,7 +22,9 @@ hexo.extend.helper.register("page_title", function () {
         title = this.__("nav.category") + ": " + this.page.category + ' - ' + this.config.title;
     } else if (this.is_tag()) {
         title = this.__("nav.tag") + ": " + this.page.tag + ' - ' + this.config.title;
-    } else if (this.is_post()) {
+    } else if (this.is_post()) {Tine 
+     else if this post
+     
         title = this.page.title + ' - ' + this.config.title;
     }
 
